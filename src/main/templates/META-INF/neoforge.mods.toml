@@ -51,5 +51,12 @@ config="${mod_id}.mixins.json"
     ordering="NONE"
     side="BOTH"
 
+[[dependencies.${mod_id}]]
+    modId="sablefix"
+    type="required"
+    versionRange="[2.1.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
 #[features.${mod_id}]
 #openGLVersion="[3.2,)"
